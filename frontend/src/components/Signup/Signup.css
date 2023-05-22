@@ -1,0 +1,72 @@
+/* LOGIN PAGE */
+.loginPage {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.loginDiv {
+  width: 30rem;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+.loginHeading {
+  font-size: 30px;
+  font-weight: 770;
+  padding: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.formDetailHeading {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: darkslategray;
+}
+
+.formInputFields {
+  font-size: 1rem;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif, FontAwesome;
+}
+
+.loginButton {
+  width: 30%;
+  /* margin-top: 33px; */
+  margin: 33px auto 0;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  background-color: #000;
+  color: #00ff1b;
+  border-radius: 23px;
+  font-weight: bold;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.signupDiv {
+  margin-top: 1.2rem;
+}
+
+.signupContent {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
